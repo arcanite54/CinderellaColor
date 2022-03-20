@@ -58,7 +58,7 @@ function main(array, disptype, isPushButton) {
     table.style.borderSpacing = 0;
     table.style.margin = 0;
     table.style.padding = 0;
-    table.style.backgroundColor = "#e0e0e0";
+    //table.style.backgroundColor = "#e0e0e0";
 
     var resultList = [];
 
