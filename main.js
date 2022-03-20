@@ -51,7 +51,8 @@ function main(array, disptype, isPushButton) {
         div1.removeChild(div1.firstChild);
     }
 
-    var tableWidth = Math.floor(window.innerWidth / 450);
+    var innerWidth = Math.floor(window.innerWidth / 450);
+    var tableWidth = Math.max(innerWidth, 1);
 
     var table = document.createElement("table");
     table.style.borderCollapse = "collapse";
